@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 
 import chalk from "chalk";
@@ -69,9 +69,7 @@ if ( pinAnswer.pin === pinCode){
     }
 
      }
-
-
-
+    
      else if(operationAns.operations === "Check Balance"){
         console.log(`your balance is ${myBalance}`);
      }
@@ -121,6 +119,11 @@ if( confirmation_ans.user.confirm === false){
     console.log(chalk.blue.bold("\n\tThank you for using ATM"));
 }}
 
+
+
+
+
 process.exit(); //// code for program end
 
 myfunction();
+

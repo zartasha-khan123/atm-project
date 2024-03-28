@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let userId = "";
@@ -83,7 +84,7 @@ const confirmation_ans = await inquirer.prompt([{
     }]);
 {
     if (confirmation_ans.user.confirm === false) {
-        console.log(chalk.blue("\n\tThank you for using ATM"));
+        console.log(chalk.blue.bold("\n\tThank you for using ATM"));
     }
 }
 process.exit(); //// code for program end
