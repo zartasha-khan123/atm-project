@@ -5,7 +5,9 @@
   "main": "main.js",
   "type": "module",
   "publishConfig": {"access": "public"},
-  "bin":"main.js",
+  "bin": {
+    "@zartashimran/atm-projectbyzara": "main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
