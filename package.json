@@ -1,6 +1,6 @@
 {
   "name": "zartashimran-atm-machinebyzibs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this is atm machine",
   "main": "main.js",
   "type": "module",
@@ -12,9 +12,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "zartashimran-atm-machinebyzibs": "^1.0.1",
+    "zartashimran-atm-machinebyzibs": "^1.0.2",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {
