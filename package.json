@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "zartashimran-atm-machinebyzibs": "^1.0.2",
-    "inquirer": "^9.2.16"
+    "inquirer": "^9.2.16",
+    "zartashimran-atm-machinebyzibs": "^1.0.2"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
