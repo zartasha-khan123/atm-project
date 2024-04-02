@@ -1,7 +1,7 @@
 {
   "name": "zartashimran-atm-machinebyzibs",
   "version": "1.0.1",
-  "description": "",
+  "description": "this is atm machine",
   "main": "main.js",
   "type": "module",
   "bin": {
